@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Comfortaa', cursive;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+
+.container.one {
+  background-image: url('spain.jpeg');
+  background-size: cover;
+}
+
+.container.two {
+  background-image: url('greece.jpeg');
+  background-size: cover;
+}
+
+.container.three {
+  background-image: url('italy.jpeg');
+  background-size: cover;
+}
+
+.container.four {
+  background-image: url('croatia.jpeg');
+  background-size: cover;
+}
+
+.text {
+  color: #fff;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.text h1 {
+  text-transform: uppercase;
+  font-size: 6rem;
+}
+
+.text p {
+  font-size: 4rem;
+  background: #000;
+  opacity: .5;
+  width: 50%;
+  margin: 15px auto;
+  padding: 1% 0;
+}
+
+@media (max-width: 860px) {
+  .text p {
+    font-size: 2rem;
+    width: 100%
+  }
+
+  .text h1 {
+     
+    font-size: 4rem;
+  }
+}
